@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FILA</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- logo title -->
+    <link rel="icon" href="./img/logo-title-real.jpg">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+  <div class="sidebar-blur">
+  <div class="sidebar-main">
+   <div class="close">
+     <span class="x"><i class="fas fa-times"></i></span>
+     <span class="close2">CLOSE</span>
+   </div>
+
+   <div class="mother">
+    <div class="cart">
+      <h2 class="header-cart section-header">Shopping Cart</h2>
+  
+      <!-- <div class="cart-row">
+        <span class="cart-item cart-header cart-column">ITEM</span>
+        <span class="cart-price cart-header cart-column">PRICE</span>
+        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+      </div> -->
+      <div class="cart-items">
+  
+        
+  
+   
+  
+      </div>
+      <div class="cart-total">
+        <div class="total-main">
+        <strong class="card-total-title">Total:</strong>
+        <span class="cart-total-price">$0</span>
+      </div>
+
+        <button class="btn btn-danger btn-purchase" type="button">PURCHASE</button>
+      </div>
+    
+    </div>
+  
+  </div>
+  </div>
+
+  </div>
+</div>
+    <div class="nav-container">
+        <nav>
+            <div class="logo">
+                <img src="./img/pila.png" alt="fila">
+            </div>
+
+            <ul class="list-choices">
+              <li><a href="">Footwear</a></li>
+              <li><a href="">Men</a></li>
+              <li><a href="">Women</a></li>
+              <li><a href="">Gifts</a></li>
+            </ul>
+
+            <ul class="list">               
+                <li><i class="fas fa-search"></i> </li>
+                <span></span>
+                <li class="shop-btn" alt="as"> <i class="fas fa-shopping-cart btn" ></i> </li>
+                <div class="count">0</div>
+            </ul>
+        </nav>
+    </div>
+
+
+
+
+
+    <div class="main">
+
+     
+        <div class="landing ">
+         
+            <div class="landing-content ">
+                <div class="slide" style="background-image:url('./fila/20201210_174422.jpg');"></div>
+                <div class="slide" style="background-image:url('./fila/20201210_174008.jpg');"></div>
+                <div class="slide" style="background-image:url('./fila/20201210_173844.jpg');"> </div>
+                <div class="slide" style="background-image:url('./fila/20201210_174144.jpg');"></div>
+                <div class="slide" style="background-image:url('./fila/20201210_174415.jpg');"></div>
+                
+                <div class="content">
+         
+                    <h1>RUNNER</h1>
+                    <div class="inner">
+                      <p class="text-danger">VIEW PRODUCTS</p>
+                      <span></span>
+                    </div>
+                    
+ 
+                  </div>
+                  
+            </div>
+        </div>
+
+        <div class="container-fluid cart">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-3 my-3 d-flex justify-content-center" >
+                        <div class="card my-card" onclick="myModal()" style="width: 15rem;">
+                            <img class="card-img-top" src="./fila/20201210_174203.jpg" alt="Card image cap">
+                            <div class="card-body bg-dark">
+                              <h5 class="card-title text-white">Men's Distruptor</h5>
+                              <p class="card-text text-white d-flex mw-100 align-items-center justify-content-between">$300  <i class="fas fa-shopping-cart"></i></p>
+                             
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 my-3 d-flex justify-content-center">
+                        <div class="card my-card" onclick="myModal1()" style="width: 15rem;">
+                            <img class="card-img-top" src="./fila/20201210_174212.jpg" alt="Card image cap">
+                            <div class="card-body bg-dark">
+                              <h5 class="card-title text-white">Mens Distruptor 2 Xray</h5>
+                              <p class="card-text text-white d-flex mw-100 align-items-center justify-content-between">$200 <i class="fas fa-shopping-cart"></i></p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 my-3 d-flex justify-content-center">
+                        <div class="card my-card" onclick="myModal2()" style="width: 15rem;">
+                            <img class="card-img-top" src="./fila/20201210_174224.jpg" alt="Card image cap">
+                            <div class="card-body bg-dark">
+                              <h5 class="card-title text-white">Project 7 Interation</h5>
+                              <p class="card-text text-white d-flex mw-100 align-items-center justify-content-between">$901 <i class="fas fa-shopping-cart"></i></p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 my-3 d-flex justify-content-center">
+                        <div class="card my-card" onclick="myModal3()" style="width: 15rem;">
+                            <img class="card-img-top" src="./fila/20201210_174234.jpg" alt="Card image cap">
+                            <div class="card-body bg-dark">
+                              <h5 class="card-title text-white">Project 7 Wavelet Alpha</h5>
+                              <p class="card-text text-white d-flex mw-100 align-items-center justify-content-between">$100 <i class="fas fa-shopping-cart"></i></p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 my-3 d-flex justify-content-center">
+                        <div class="card my-card" onclick="myModal4()" style="width: 15rem;">
+                            <img class="card-img-top" src="./fila/20201210_174256.jpg" alt="Card image cap">
+                            <div class="card-body bg-dark">
+                              <h5 class="card-title text-white">Mens Expeditioner</h5>
+                              <p class="card-text text-white d-flex mw-100 align-items-center justify-content-between">$290 <i class="fas fa-shopping-cart"></i></p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 my-3 d-flex justify-content-center">
+                        <div class="card my-card" onclick="myModal5()" style="width: 15rem;">
+                            <img class="card-img-top" src="./fila/20201210_174309.jpg" alt="Card image cap">
+                            <div class="card-body bg-dark">
+                              <h5 class="card-title text-white">Men's Teratach</h5>
+                              <p class="card-text text-white d-flex mw-100 align-items-center justify-content-between">$300 <i class="fas fa-shopping-cart"></i></p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 my-3 d-flex justify-content-center">
+                        <div class="card my-card" onclick="myModal6()" style="width: 15rem;">
+                            <img class="card-img-top" src="./fila/20201210_174321.jpg" alt="Card image cap">
+                            <div class="card-body bg-dark">
+                              <h5 class="card-title text-white">Mens Trigate</h5>
+                              <p class="card-text text-white d-flex mw-100 align-items-center justify-content-between">$290 <i class="fas fa-shopping-cart"></i></p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 my-3 my-3 d-flex justify-content-center">
+                        <div class="card my-card" onclick="myModal7()" style="width: 15rem;">
+                            <img class="card-img-top" src="./fila/20201210_174203.jpg" alt="Card image cap">
+                            <div class="card-body bg-dark">
+                              <h5 class="card-title text-white">Mens Sonic Burst</h5>
+                              <p class="card-text text-white d-flex mw-100 align-items-center justify-content-between">$100 <i class="fas fa-shopping-cart"></i></p>
+                            </div>
+                          </div>
+                    </div>
+                    
+
+                </div>
+            </div>
+        </div>
+
+  </div>
+  <!-- <div class="container-fluid mother">
+    <div class="cart container bg-light w-100 h-100 d-flex flex-column justify-content-around" style="max-width: 900px;">
+      <h2 class="header-cart section-header">CART</h2>
+  
+      <div class="cart-row d-flex justify-content-between">
+        <span class="cart-item cart-header cart-column">ITEM</span>
+        <span class="cart-price cart-header cart-column">PRICE</span>
+        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+      </div>
+      <div class="cart-items">
+  
+        
+  
+   
+  
+      </div>
+      <div class="cart-total">
+        <strong class="card-total-title">Total</strong>
+        <span class="cart-total-price">$0</span>
+      </div>
+    
+    </div>
+    <button class="btn btn-danger btn-purchase" type="button">PURCHASE</button>
+  </div> -->
+
+
+
+         <div class="bgmodal container-fluid bg_modal">
+            <div class="container amodal bg-primary ">
+              <div class="row p-0 h-100 _mymodal">
+                <div class="col col-md-6 input p-0 h-100 w-100">
+                     <div class="myimg m-0 p-0 h-100 w-100" >
+                    <img src="./fila/20201211_135147.jpg" alt="yoongi">
+                </div>
+                  </div>
+                <div class="col col-md-6 p-0 input h-100 w-100 ">
+                    <div class="card w-100 p-0 m-0 h-100">
+                        <img class="card-img-top _cardimg shop-item-image" src="./fila/20201210_174203.jpg" alt="Cardimagecap">
+                        
+                        <div class="card-body _body bg-light">
+                          <div class="title-and-button mb-2 d-flex justify-content-between align-items-center">
+                            <h5 class="card-title text-dark shop-item-title">Men's Distruptor 
+                            </h5>
+                            <button type="button" class="btn btn-danger shop-item-button">Add to cart</button>
+                          </div>
+                         
+                          <div class="row d-flex mw-100 justify-content-between align-items-center p-0 m-0" >
+                            <p class="card-text text-danger p-0 m-0 shop-item-price" style="font-size: 30px; font-weight: bolder;">$300</p>
+                            <form class="">
+                                <div class="form-row align-items-center">
+                                  <div class="col-auto my-1">
+                                    <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                      <option selected>SIZE</option>
+                                      <option value="1">32</option>
+                                      <option value="2">43</option>
+                                      <option value="3">56</option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </form>
+                            </div>
+                        </div>
+                      </div>
+                </div>  
+            </div>
+                <i onclick="sara()" class="fas fa-times"></i>
+            </div>
+            <div class="my-alert">
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                <strong>ADD TO CART!</strong> You can check your item in the home page.
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                  <span>&times;</span>
+                </button>
+              </div>
+            </div>
+        </div>
+       
+        <div class="bgmodal container-fluid bg_modal1">
+          <div class="container amodal bg-primary ">
+            <div class="row p-0 h-100 _mymodal">
+              <div class="col col-md-6 input p-0 h-100 w-100">
+                   <div class="myimg m-0 p-0 h-100 w-100" >
+                  <img src="./fila/20201211_135207.jpg" alt="yoongi">
+              </div>
+                </div>
+              <div class="col col-md-6 p-0 input h-100 w-100 ">
+                  <div class="card w-100 p-0 m-0 h-100">
+                      <img class="card-img-top _cardimg" src="./fila/20201210_174212.jpg" alt="Card image cap">
+                      <div class="card-body _body bg-light">
+                        <div class="title-and-button mb-2 d-flex justify-content-between align-items-center">
+                          <h5 class="card-title text-dark shop-item-title">Mens Distruptor 2 Xray
+                          </h5>
+                          <button type="button" class="btn btn-danger shop-item-button">Add to cart</button>
+                        </div>
+                      
+                        <div class="row d-flex mw-100 justify-content-between align-items-center p-0 m-0" >
+                          <p class="card-text text-danger p-0 m-0 shop-item-price" style="font-size: 30px; font-weight: bolder;">$200</p>
+                          <form class="">
+                              <div class="form-row align-items-center">
+                                <div class="col-auto my-1">
+                                  <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                    <option selected>SIZE</option>
+                                    <option value="1">32</option>
+                                    <option value="2">43</option>
+                                    <option value="3">56</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                      </div>
+                    </div>
+              </div>  
+          </div>
+              <i onclick="sara()" class="fas fa-times"></i>
+          </div>
+          <div class="my-alert">
+          <div class="alert alert-success alert-dismissible fade show" role="alert">
+              <strong>ADD TO CART!</strong> You can check your item in the home page.
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span>&times;</span>
+              </button>
+            </div>
+          </div>
+      </div>
+     
+      <div class="bgmodal container-fluid bg_modal2">
+        <div class="container amodal bg-primary ">
+          <div class="row p-0 h-100 _mymodal">
+            <div class="col col-md-6 input p-0 h-100 w-100">
+                 <div class="myimg m-0 p-0 h-100 w-100" >
+                <img src="./fila/20201211_135218.jpg" alt="yoongi">
+            </div>
+              </div>
+            <div class="col col-md-6 p-0 input h-100 w-100 ">
+                <div class="card w-100 p-0 m-0 h-100">
+                    <img class="card-img-top _cardimg" src="./fila/20201210_174224.jpg" alt="Card image cap">
+                    <div class="card-body _body bg-light">
+                      <div class="title-and-button mb-2 d-flex justify-content-between align-items-center">
+                        <h5 class="card-title text-dark shop-item-title">Project 7 Interation
+                        </h5>
+                        <button type="button" class="btn btn-danger shop-item-button">Add to cart</button>
+                      </div>
+                      
+                      <div class="row d-flex mw-100 justify-content-between align-items-center p-0 m-0" >
+                        <p class="card-text text-danger p-0 m-0 shop-item-price" style="font-size: 30px; font-weight: bolder;">$901</p>
+                        <form class="">
+                            <div class="form-row align-items-center">
+                              <div class="col-auto my-1">
+                                <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                  <option selected>SIZE</option>
+                                  <option value="1">32</option>
+                                  <option value="2">43</option>
+                                  <option value="3">56</option>
+                                </select>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+                    </div>
+                  </div>
+            </div>  
+        </div>
+            <i onclick="sara()" class="fas fa-times"></i>
+        </div>
+        <div class="my-alert">
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            <strong>ADD TO CART!</strong> You can check your item in the home page.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span>&times;</span>
+            </button>
+          </div>
+        </div>
+    </div>
+
+    <div class="bgmodal container-fluid bg_modal3">
+      <div class="container amodal bg-primary ">
+        <div class="row p-0 h-100 _mymodal">
+          <div class="col col-md-6 input p-0 h-100 w-100">
+               <div class="myimg m-0 p-0 h-100 w-100" >
+              <img src="./fila/20201211_135245.jpg" alt="yoongi">
+          </div>
+            </div>
+          <div class="col col-md-6 p-0 input h-100 w-100 ">
+              <div class="card w-100 p-0 m-0 h-100">
+                  <img class="card-img-top _cardimg" src="./fila/20201210_174234.jpg" alt="Card image cap">
+                  <div class="card-body _body bg-light">
+                    <div class="title-and-button mb-2 d-flex justify-content-between align-items-center">
+                      <h5 class="card-title text-dark shop-item-title">Project 7 Wavelet Alpha
+                      </h5>
+                      <button type="button" class="btn btn-danger shop-item-button">Add to cart</button>
+                    </div>
+                   
+                    <div class="row d-flex mw-100 justify-content-between align-items-center p-0 m-0" >
+                      <p class="card-text text-danger p-0 m-0 shop-item-price" style="font-size: 30px; font-weight: bolder;">$100</p>
+                      <form class="">
+                          <div class="form-row align-items-center">
+                            <div class="col-auto my-1">
+                              <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                <option selected>SIZE</option>
+                                <option value="1">32</option>
+                                <option value="2">43</option>
+                                <option value="3">56</option>
+                              </select>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                  </div>
+                </div>
+          </div>  
+      </div>
+          <i onclick="sara()" class="fas fa-times"></i>
+      </div>
+      <div class="my-alert">
+      <div class="alert alert-success alert-dismissible fade show" role="alert">
+          <strong>ADD TO CART!</strong> You can check your item in the home page.
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span>&times;</span>
+          </button>
+        </div>
+      </div>
+  </div>
+
+  <div class="bgmodal container-fluid bg_modal4">
+    <div class="container amodal bg-primary ">
+      <div class="row p-0 h-100 _mymodal">
+        <div class="col col-md-6 input p-0 h-100 w-100">
+             <div class="myimg m-0 p-0 h-100 w-100" >
+            <img src="./fila/20201211_135250.jpg" alt="yoongi">
+        </div>
+          </div>
+        <div class="col col-md-6 p-0 input h-100 w-100 ">
+            <div class="card w-100 p-0 m-0 h-100">
+                <img class="card-img-top _cardimg" src="./fila/20201210_174256.jpg" alt="Card image cap">
+                <div class="card-body _body bg-light">
+                  <div class="title-and-button mb-2 d-flex justify-content-between align-items-center">
+                    <h5 class="card-title text-dark shop-item-title">Mens Expeditioner
+                    </h5>
+                    <button type="button" class="btn btn-danger shop-item-button">Add to cart</button>
+                  </div>
+                  
+                  <div class="row d-flex mw-100 justify-content-between align-items-center p-0 m-0" >
+                    <p class="card-text text-danger p-0 m-0 shop-item-price" style="font-size: 30px; font-weight: bolder;">$290</p>
+                    <form class="">
+                        <div class="form-row align-items-center">
+                          <div class="col-auto my-1">
+                            <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                              <option selected>SIZE</option>
+                              <option value="1">32</option>
+                              <option value="2">43</option>
+                              <option value="3">56</option>
+                            </select>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                </div>
+              </div>
+        </div>  
+    </div>
+        <i onclick="sara()" class="fas fa-times"></i>
+    </div>
+    <div class="my-alert">
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <strong>ADD TO CART!</strong> You can check your item in the home page.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span>&times;</span>
+        </button>
+      </div>
+    </div>
+</div>
+
+<div class="bgmodal container-fluid bg_modal5">
+  <div class="container amodal bg-primary ">
+    <div class="row p-0 h-100 _mymodal">
+      <div class="col col-md-6 input p-0 h-100 w-100">
+           <div class="myimg m-0 p-0 h-100 w-100" >
+          <img src="./fila/20201211_135254.jpg" alt="yoongi">
+      </div>
+        </div>
+      <div class="col col-md-6 p-0 input h-100 w-100 ">
+          <div class="card w-100 p-0 m-0 h-100">
+              <img class="card-img-top _cardimg" src="./fila/20201210_174309.jpg" alt="Card image cap">
+              <div class="card-body _body bg-light">
+                <div class="title-and-button mb-2 d-flex justify-content-between align-items-center">
+                  <h5 class="card-title text-dark shop-item-title">Men's Teratach
+                  </h5>
+                  <button type="button" class="btn btn-danger shop-item-button">Add to cart</button>
+                </div>
+                
+                <div class="row d-flex mw-100 justify-content-between align-items-center p-0 m-0" >
+                  <p class="card-text text-danger p-0 m-0 shop-item-price" style="font-size: 30px; font-weight: bolder;">$300</p>
+                  <form class="">
+                      <div class="form-row align-items-center">
+                        <div class="col-auto my-1">
+                          <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                            <option selected>SIZE</option>
+                            <option value="1">32</option>
+                            <option value="2">43</option>
+                            <option value="3">56</option>
+                          </select>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+              </div>
+            </div>
+      </div>  
+  </div>
+      <i onclick="sara()" class="fas fa-times"></i>
+  </div>
+  <div class="my-alert">
+  <div class="alert alert-success alert-dismissible fade show" role="alert">
+      <strong>ADD TO CART!</strong> You can check your item in the home page.
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span>&times;</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<div class="bgmodal container-fluid bg_modal6">
+  <div class="container amodal bg-primary ">
+    <div class="row p-0 h-100 _mymodal">
+      <div class="col col-md-6 input p-0 h-100 w-100">
+           <div class="myimg m-0 p-0 h-100 w-100" >
+          <img src="./fila/20201211_135257.jpg" alt="yoongi">
+      </div>
+        </div>
+      <div class="col col-md-6 p-0 input h-100 w-100 ">
+          <div class="card w-100 p-0 m-0 h-100">
+              <img class="card-img-top _cardimg" src="./fila/20201210_174321.jpg" alt="Card image cap">
+              <div class="card-body _body bg-light">
+                <div class="title-and-button mb-2 d-flex justify-content-between align-items-center">
+                  <h5 class="card-title text-dark shop-item-title">Mens Trigate
+                  </h5>
+                  <button type="button" class="btn btn-danger shop-item-button">Add to cart</button>
+                </div>
+                
+                <div class="row d-flex mw-100 justify-content-between align-items-center p-0 m-0" >
+                  <p class="card-text text-danger p-0 m-0 shop-item-price" style="font-size: 30px; font-weight: bolder;">$290</p>
+                  <form class="">
+                      <div class="form-row align-items-center">
+                        <div class="col-auto my-1">
+                          <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                            <option selected>SIZE</option>
+                            <option value="1">32</option>
+                            <option value="2">43</option>
+                            <option value="3">56</option>
+                          </select>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+              </div>
+            </div>
+      </div>  
+  </div>
+      <i onclick="sara()" class="fas fa-times"></i>
+  </div>
+  <div class="my-alert">
+  <div class="alert alert-success alert-dismissible fade show" role="alert">
+      <strong>ADD TO CART!</strong> You can check your item in the home page.
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span>&times;</span>
+      </button>
+    </div>
+  </div>
+</div>
+        
+<div class="bgmodal container-fluid bg_modal7">
+  <div class="container amodal bg-primary ">
+    <div class="row p-0 h-100 _mymodal">
+      <div class="col col-md-6 input p-0 h-100 w-100">
+           <div class="myimg m-0 p-0 h-100 w-100" >
+          <img src="./fila/20201211_135147.jpg" alt="yoongi">
+      </div>
+        </div>
+      <div class="col col-md-6 p-0 input h-100 w-100 ">
+          <div class="card w-100 p-0 m-0 h-100">
+              <img class="card-img-top _cardimg" src="./fila/20201210_174203.jpg" alt="Card image cap">
+              <div class="card-body _body bg-light">
+                <div class="title-and-button mb-2 d-flex justify-content-between align-items-center">
+                  <h5 class="card-title text-dark shop-item-title">Mens Sonic Burst
+                  </h5>
+                  <button type="button" class="btn btn-danger shop-item-button">Add to cart</button>
+                </div>
+                
+                <div class="row d-flex mw-100 justify-content-between align-items-center p-0 m-0" >
+                  <p class="card-text text-danger p-0 m-0 shop-item-price" style="font-size: 30px; font-weight: bolder;">$100</p>
+                  <form class="">
+                      <div class="form-row align-items-center">
+                        <div class="col-auto my-1">
+                          <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                            <option selected>SIZE</option>
+                            <option value="1">32</option>
+                            <option value="2">43</option>
+                            <option value="3">56</option>
+                          </select>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+              </div>
+            </div>
+      </div>  
+  </div>
+      <i onclick="sara()" class="fas fa-times"></i>
+  </div>
+  <div class="my-alert">
+  <div class="alert alert-success alert-dismissible fade show" role="alert">
+      <strong>ADD TO CART!</strong> You can check your item in the home page.
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span>&times;</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+
+<section class="footer container-fluid m-0 p-0" style="height: 90px;">
+  <div class="container h-100 d-flex justify-content-between align-items-center">
+    <p class="p-0 m-0 text-light">© 2020 @luke.portfolio.com This template is made by Luke</p>
+
+    <ul class="social d-flex justify-content-lg-between p-0 m-0">
+      <li><i class="fab fa-facebook-square"></i></li>
+      <li><i class="fab fa-instagram"></i></li>
+      <li><i class="fab fa-twitter "></i></li>
+    </ul>
+  </div>
+</section>
+
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="./app.js" async></script>
+</html>
